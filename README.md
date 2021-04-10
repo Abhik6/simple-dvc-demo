@@ -57,8 +57,7 @@ git add . && git commit -m "update Readme.md"
 
 12.
 ```bash
-git remote add 
-origin https://github.com/Abhik6/simple-dvc-demo.git
+git remote add origin https://github.com/Abhik6/simple-dvc-demo.git
 
 git branch -M main
 
