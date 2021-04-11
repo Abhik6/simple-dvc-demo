@@ -63,3 +63,18 @@ git branch -M main
 
 git push -u origin main
 ```
+
+13. To run the dvc.yaml (different Stages)
+```bash
+dvc repro
+```
+
+14. To check metrics through dvc
+```bash
+dvc metrics show
+```
+
+15. To check, track and compare metrics for different model runs
+```bash
+dvc metrics diff
+```
