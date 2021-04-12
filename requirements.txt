@@ -10,3 +10,7 @@ pytest
 tox
 # To check the coding standards in python
 flake8
+# Creation of Web app
+flask
+# To publish the app
+gunicorn
