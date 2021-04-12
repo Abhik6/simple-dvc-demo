@@ -119,3 +119,14 @@ pip install -e .
 ```bash
 python setup.py sdist bdist wheel
 ```
+
+24. install jupyter notebook in current directory
+```bash
+pip install jupyterlab
+```
+
+25. to open jupyter notebook from command line
+```bash
+jupyter-lab notebooks/
+```
+
