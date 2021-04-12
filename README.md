@@ -78,3 +78,24 @@ dvc metrics show
 ```bash
 dvc metrics diff
 ```
+
+16. To run tests
+```bash
+pytest -v
+```
+
+17.
+To run tests using tox
+```bash
+tox
+```
+
+18. To run setup.py and create packages wherever __init__.py file present
+```bash
+pip install -e .
+```
+
+19. To check all installed packages
+```bash
+pip freeze
+```
