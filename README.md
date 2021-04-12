@@ -99,3 +99,23 @@ pip install -e .
 ```bash
 pip freeze
 ```
+
+20. tox for rebuilding
+```bash
+tox -r
+```
+
+21. pytest command
+```bash
+pytest -v
+```
+
+22. Setup commands
+```bash
+pip install -e .
+```
+
+23. Build your own package commands
+```bash
+python setup.py sdist bdist wheel
+```
