@@ -8,3 +8,5 @@ sklearn
 pandas
 pytest
 tox
+# To check the coding standards in python
+flake8
