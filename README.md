@@ -130,3 +130,15 @@ pip install jupyterlab
 jupyter-lab notebooks/
 ```
 
+26. To check out new branch from GIT
+```bash
+git checkout -b main-mlflow
+```
+
+27. Create an artifacts folder
+
+28. mlflow server command
+```bash
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifact --host 0.0.0.0 -p 1234
+```
+
